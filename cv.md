@@ -97,11 +97,8 @@ priceplot <- function(data, ticker, normalise=F){
 
 __English__     (A2)
 
-
 __Belarussian__ (native)
 
-
 __Russian__     (C1)
-
 
 __Polish__      (A2)
