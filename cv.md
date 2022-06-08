@@ -24,7 +24,7 @@ I graduated from the Faculty of Philology of Belarusian State University with a 
 
 After graduating from the university, I worked as a Belarusian language teacher for 2 years in one of the secondary schools in Minsk. During this period, I managed to act as a volunteer and teacher at the International Summer School of Belarusian Studies (2017).
 
-In 2019, I started my career in marketing and project management: I worked as a marketer for the Russian holiday and entertainment franchise Fort Family (now Rublev Family). Currently and as a project manager at Vinst marketing agency.
+In 2019, I started my career in marketing and project management: I worked as a marketer for the Russian holiday and entertainment franchise Fort Family (now Rublev Family) and as a project manager at Vinst marketing agency.
 
 Since 2020, I have been working closely with the Northern Lights Nordic-Baltic Film Festival in Belarus as a Zoom Manager. My tasks include preparing, technical support, broadcasting live events, recording, post-production control and publication of recorded events on the festival's industrial platform.
 
