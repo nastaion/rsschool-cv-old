@@ -1,2 +1,2 @@
-[# rsschool-cv](https://nastaion.github.io/rssschool-cv/cv)
+https://nastaion.github.io/rsschool-cv/cv
 
