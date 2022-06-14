@@ -6,6 +6,7 @@ html {
 }
 header {
     background-color: rgb(20, 119, 122);
+    position: fixed;
 }
 body {
     background-color: rgb(196, 248, 248);
@@ -41,4 +42,6 @@ p {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+    align-items: center;
 }
+
