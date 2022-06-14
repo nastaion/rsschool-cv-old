@@ -1,9 +1,33 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: teal;
+    background-color: rgb(196, 248, 248);
+    font-family: 'Inconsolata', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h1 {
-    color: rgb(69, 4, 4);
+    color: rgb(0, 0, 0);
+    font-size: 16;
 }
 p {
-    color: azure;
+    background-color: rgb(251, 251, 251);
 }
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+</style>
