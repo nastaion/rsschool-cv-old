@@ -14,12 +14,13 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
+            <div class="container header-container">
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                         <li class="nav=item"><a href="#bio" class="nav-link">Bio</a></li>
                         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                         <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                         <li class="nav-item"><a href="#projects" class="nav-links">Projects</a></li>
                         <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
@@ -27,7 +28,7 @@
                 </nav>
             </div>
         </header>
-     <main class="main">
+    <main class="main">
         <div class="container main-container">
             <section class="section-profile" id="profile">
                 <img class="profile-picture" src="/assets/nasta.jpg" alt="digital avatar of Nasta Ion">
@@ -37,11 +38,11 @@
         </div>
         <section class="section" id="contacts">
             <h2>Contacts</h2>
-            <p><b>Telegram:</b><a href="https://t.me/nastaion">nastaion</a></p>
-            <p><b>E-mail:</b>nastya.ionicova@gmail.com</p>
-            <p><b>GitHub:</b><a href="https://github.com/nastaion">nastaion</a></p>
+            <p><b>Telegram:</b><a href="https://t.me/nastaion"> nastaion</a></p>
+            <p><b>E-mail:</b> nastya.ionicova@gmail.com</p>
+            <p><b>GitHub:</b><a href="https://github.com/nastaion"> nastaion</a></p>
         </section>
-         <section class="section" id="bio">
+        <section class="section" id="bio">
             <h2>Short bio</h2>
             <p>I was born in Minsk on 27.08.1996.</p>
             <p>
@@ -57,6 +58,80 @@
                 Since 2020, I have been working closely with the Northern Lights Nordic-Baltic Film Festival in Belarus as a Zoom Manager. My tasks include preparing, technical support, broadcasting live events, recording, post-production control and publication of recorded events on the festival's industrial platform.
             </p>
         </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ol>
+                <li>BSU (Bachelor's degree in Slavic Philology).</li>
+                <li>RSSchool (JavaScript Stage 0).</li>
+                <li>HTML academy (Introduction to web development).</li>
+                <li>Hexlet (JavaScript Setup).</li>
+            </ol>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <p>Front-end</p>
+            <ul>
+                <li>HTML (basic)</li>
+                <li>CSS (basic)</li>
+                <li>JavaScript (basic)</li>
+            </ul>
+            <p>Back-end</p>
+            <ul>
+                <li>PHP (basic)</li>
+            </ul>
+            <p>Data science</p>
+            <ul>
+                <li>R (basic)</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2>Code</h2>
+            <ul>
+                <li><h3>JavaScript</h3>
+                    <code><pre>
+                    function multiply(a,b){
+                        a * b
+                        }
+                    </pre></code></li>
+                <li><h3>R</h3>
+                    <code><pre>
+                        priceplot <- function(data, ticker, normalise=F){
+    
+                            if (normalise) {
+                                data  <- data %>% spread(stock, close) 
+                                
+                                for (it in c(2:17)){
+                                  data[it] <- (data[it])/(data[1,it])*100
+                                  }
+                                
+                                data <- data %>% gather(key = stock, value =close, -date)
+                              }
+                              
+                               data %>%  
+                                 filter(stock %in% ticker) %>%
+                                 ggplot(aes(x = date, y = close, colour = stock)) +
+                                 geom_line() +
+                                 labs (title = ticker)
+                          } 
+                    </pre></code>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h2>My projects</h2>
+            <p><a href="https://github.com/nastaion/rsschool-cv">CV Stage 0</a></p>
+        </section>
+        <section class="section" id="lang">
+            <h2>Languages</h2>
+            <ol>
+                <li>English (A2)</li>
+                <li>Belarusian (native)</li>
+                <li>Russian (C2)</li>
+                <li>Polish (A2)</li>
+            </ol>
+        </section>
     </main>
-
+<footer>
+    
+</footer>
 </html>
