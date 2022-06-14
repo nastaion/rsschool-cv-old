@@ -1,23 +1,30 @@
-<style>
 * {
     box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
 }
+header {
+    background-color: rgb(20, 119, 122);
+}
 body {
     background-color: rgb(196, 248, 248);
     font-family: 'Inconsolata', sans-serif;
+    font-size: ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 h1 {
     color: rgb(0, 0, 0);
-    font-size: 16;
+    font-size: 18;
 }
 p {
-    background-color: rgb(251, 251, 251);
+    color: black;
+    font-size: 14px;
+}
+.nav {
+    display: none;
 }
 .nav-list {
     display: flex;
@@ -30,4 +37,3 @@ p {
     line-height: 50px;
     transition: .3s;
 }
-</style>
