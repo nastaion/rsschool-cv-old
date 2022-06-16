@@ -6,9 +6,9 @@ html {
 }
 header {
     background-color: rgb(20, 119, 122);
-    height: 100px;
+    color: white;
+    height: 14px;
     width: 100%;
-    position: fixed;
 }
 body {
     background-color: rgb(196, 248, 248);
