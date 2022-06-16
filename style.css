@@ -1,16 +1,18 @@
 * {
     box-sizing: border-box;
+    align-items: center;
 }
 html {
     scroll-behavior: smooth;
 }
 header {
     background-color: black;
-    height: 30px;
     width: 100%;
+    height: 30px;
     position: fixed;
     align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 body {
     background-color: white;
@@ -21,6 +23,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.section {
+    width: 100%;
+    line-height: 22px; 
 }
 h1 {
     color: black;
@@ -34,23 +40,25 @@ h2 {
     font-size: 16px;
     padding: 15px;
     font-weight: 700;
+    align-items: center;
+    display: flex;
 }
 h3 {
     font-size: 15px;
     font-weight: 600;
-    padding: 15px;
+    padding: 10px;
 }
 p {
     color: black;
     background-color: white;
     font-size: 14px;
     text-align: left;
-    line-height: 18px;
+    line-height: 22px;
     padding: 15px;
 }
 .nav {
     display: flex;
-    height: 40px;
+    height: 42px;
 }
 .nav-list {
     display: flex;
@@ -66,7 +74,7 @@ p {
     transition: .3s;
     align-items: center;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     }
 .profile-picture {
     width: 150px;
@@ -76,7 +84,7 @@ p {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding: 15px;
     align-items: center;
 }
 .contacts {
@@ -87,4 +95,22 @@ p {
     align-items: center;
     padding: 15px;
     line-height: 18px;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer-element{
+    color: white;
+    padding: 0, 20px;
+}
+.footer-image {
+    height: 135px;
+    width: 135px;
 }
