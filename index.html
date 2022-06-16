@@ -31,13 +31,14 @@
     <main class="main">
         <div class="container main-container">
             <section class="section-profile" id="profile">
+                <br>
                 <table>
                     <tr>
                         <td><img class="profile-picture" src="./assets/nasta.jpg" alt="digital avatar of Nasta Ion"></td>
                         <td>
-                    <h1>Anastasiya Ionikava</h1>
-                    <br>
-                    <h3>Front-end developer</h3>
+                            <h1> Anastasiya Ionikava</h1>
+                            <br>
+                            <h3>Front-end developer</h3>
                         </td>
                     </tr>
                 </table>
@@ -48,7 +49,7 @@
             <p>
             <b>Telegram: </b><a href="https://t.me/nastaion">nastaion</a>
             <br>
-            <b>E-mail: </b>nastya.ionicova@gmail.com</a>
+            <b>E-mail: </b>nastya.ionicova@gmail.com
             <br>
             <b>GitHub: </b><a href="https://github.com/nastaion">nastaion</a>
             </p>
@@ -69,12 +70,12 @@
         </section>
         <section class="section" id="education">
             <h2>Education</h2>
-            <ol>
+            <ul>
                 <li>BSU (Bachelor's degree in Slavic Philology).</li>
                 <li>RSSchool (JavaScript Stage 0).</li>
                 <li>HTML academy (Introduction to web development).</li>
                 <li>Hexlet (JavaScript Setup).</li>
-            </ol>
+            </ul>
         </section>
         <section class="section" id="skills">
             <h2>Skills</h2>
@@ -95,36 +96,35 @@
         </section>
         <section class="section" id="code">
             <h2>Code</h2>
-            <ul>
-                <li><h3>JavaScript</h3>
-                    <code><pre>
-                    function multiply(a,b){
-                        a * b
-                        }
-                    </pre></code></li>
-                <li><h3>R</h3>
-                    <code><pre>
-                        priceplot <- function(data, ticker, normalise=F){
+            <h3>JavaScript</h3>
+            <code><pre>
+                function multiply(a,b){
+                    a * b
+                    }
+                </pre>
+            </code>
+            <h3>R</h3>
+            <code><pre>
+                priceplot = function(data, ticker, normalise=F){
     
-                            if (normalise) {
-                                data  <- data %>% spread(stock, close) 
-                                
-                                for (it in c(2:17)){
-                                  data[it] <- (data[it])/(data[1,it])*100
-                                  }
-                                
-                                data <- data %>% gather(key = stock, value =close, -date)
-                              }
-                              
-                               data %>%  
-                                 filter(stock %in% ticker) %>%
-                                 ggplot(aes(x = date, y = close, colour = stock)) +
-                                 geom_line() +
-                                 labs (title = ticker)
-                          } 
-                    </pre></code>
-                </li>
-            </ul>
+                    if (normalise) {
+                        data = data %>% spread(stock, close) 
+                        
+                        for (it in c(2:17)){
+                          data[it] = (data[it])/(data[1,it])*100
+                          }
+                        
+                        data = data %>% gather(key = stock, value =close, -date)
+                      }
+                      
+                       data %>%  
+                         filter(stock %in% ticker) %>%
+                         ggplot(aes(x = date, y = close, colour = stock)) +
+                         geom_line() +
+                         labs (title = ticker)
+                  } 
+                </pre>
+             </code>
         </section>
         <section class="section" id="projects">
             <h2>My projects</h2>
@@ -132,15 +132,17 @@
         </section>
         <section class="section" id="lang">
             <h2>Languages</h2>
-            <ol>
+            <ul>
                 <li>English (A2)</li>
                 <li>Belarusian (native)</li>
                 <li>Russian (C2)</li>
                 <li>Polish (A2)</li>
-            </ol>
+            </ul>
         </section>
     </main>
-<footer>
-    
+<footer class="footer">
+<div class="footer-element"><h2>2022</h2></div>
+<div class="footer-element"><a href="https://github.com/nastaion">GitHub</a></div>
+<div class="footer-element"><a href="https://rs.school/index.html"><img class="footer-image" src="./assets/rsschool.svg" alt="RS School"></a></div>
 </footer>
 </html>
